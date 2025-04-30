@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+  background-color: #f7fafd;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0f0ff;
+  padding: 1rem 0;
+}
+
+.logo {
+  color: #0c82f0;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0c82f0;
+  font-weight: bold;
+}
+
+.hero {
+  background: linear-gradient(to right, #cceeff, #e0f7ff);
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #0c5ba9;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #0c82f0;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0a6ec2;
+}
+
+.about,
+.companies,
+.contact {
+  padding: 3rem 0;
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: #0c82f0;
+  margin-bottom: 1rem;
+}
+
+.company-list {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.company-card {
+  background-color: white;
+  border: 1px solid #e0f0ff;
+  border-radius: 12px;
+  padding: 1rem;
+  flex: 1 1 45%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #eef8ff;
+  color: #555;
+  font-size: 0.9rem;
+}
